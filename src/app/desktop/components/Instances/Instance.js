@@ -422,23 +422,6 @@ const Instance = ({ instanceName }) => {
             Delete
           </MenuItem>
           <MenuItem divider />
-          <MenuItem
-            onClick={openBisectModal}
-            preventClose
-            css={`
-              border: 2px solid #04cbeb;
-              border-radius: 5px;
-            `}
-          >
-            <FontAwesomeIcon
-              icon={faServer}
-              css={`
-                margin-right: 10px;
-                width: 25px !important;
-              `}
-            />
-            Create Server
-          </MenuItem>
         </ContextMenu>
       </Portal>
     </>

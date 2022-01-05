@@ -7,7 +7,6 @@ import AsyncComponent from '../../components/AsyncComponent';
 import CloseButton from '../../components/CloseButton';
 import SocialButtons from '../../components/SocialButtons';
 import { closeModal, openModal } from '../../reducers/modals/actions';
-import KoFiButton from '../../assets/ko-fi.png';
 
 const Container = styled.div`
   display: flex;
@@ -169,16 +168,6 @@ export default function Settings() {
                 }
               `}
             >
-              <a href="https://ko-fi.com/gdlauncher">
-                <img
-                  src={KoFiButton}
-                  alt="Ko-Fi"
-                  css={`
-                    margin-bottom: 0px;
-                    margin-top: 20px;
-                  `}
-                />
-              </a>
             </div>
             <div
               css={`

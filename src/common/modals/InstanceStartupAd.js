@@ -2,9 +2,8 @@ import React, { memo } from 'react';
 import { useDispatch } from 'react-redux';
 import { LoadingOutlined } from '@ant-design/icons';
 import Modal from '../components/Modal';
-import { closeModal, openModal } from '../reducers/modals/actions';
 
-import ga from '../utils/analytics';
+
 
 let timer;
 
@@ -56,13 +55,6 @@ const InstanceStartupAd = ({ instanceName }) => {
             }
           `}
         >
-          <span
-            css={`
-              font-size: 14px;
-            `}
-          >
-            Grab a server from <br /> our official partner
-          </span>
           <div>
             <span
               css={`

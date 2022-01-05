@@ -1,7 +1,7 @@
 {
-  "name": "gdlauncher",
+  "name": "royallaunch",
   "version": "1.1.21",
-  "description": "GDLauncher is simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
+  "description": "RoyalLaunch is simple, yet powerful Minecraft custom launcher (Fork from GDLaucher)",
   "keywords": [
     "minecraft",
     "launcher",
@@ -14,11 +14,11 @@
     "webpack"
   ],
   "bugs": {
-    "url": "https://github.com/gorilla-devs/GDLauncher/issues"
+    "url": "https://github.com/Mini-kun/RoyalLaunch/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gorilla-devs/GDLauncher.git"
+    "url": "git+https://github.com/Mini-kun/RoyalLaunch.git"
   },
   "license": "GPL-3.0",
   "author": {

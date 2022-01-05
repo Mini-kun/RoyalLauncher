@@ -171,7 +171,7 @@ export const librariesMapper = (libraries, librariesPath) => {
                 url: tempArr[k].url
                   .replace(
                     'libraries.minecraft.net',
-                    'cdn.gdlauncher.com/maven'
+                    'cdn.RoyalLaunch.com/maven'
                   )
                   .replace(/2.0-beta9/g, '2.0-beta9-fixed'),
                 path: tempArr[k].path.replace(/2.0-beta9/g, '2.0-beta9-fixed'),
@@ -187,7 +187,7 @@ export const librariesMapper = (libraries, librariesPath) => {
 
               // Assuming we can use 2.15
               tempArr[k] = {
-                url: `https://cdn.gdlauncher.com/maven/${mavenToArray(
+                url: `https://cdn.RoyalLaunch.com/maven/${mavenToArray(
                   patchedName,
                   native
                 ).join(path.sep)}`,
@@ -661,7 +661,7 @@ export const getJVMArguments113 = (
             );
             break;
           case 'launcher_name':
-            val = args[i].replace(argDiscovery, 'GDLauncher');
+            val = args[i].replace(argDiscovery, 'RoyalLaunch');
             break;
           case 'launcher_version':
             val = args[i].replace(argDiscovery, '1.0');

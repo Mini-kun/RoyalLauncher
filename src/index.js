@@ -50,7 +50,7 @@ ipcRenderer
     if (!dsn) {
       console.warn('No error monitoring token provided.');
       console.warn(
-        'This is not a GDLauncher official release but it might be a testing release.'
+        'This is not a RoyalLaunch official release but it might be a testing release.'
       );
       return;
     }

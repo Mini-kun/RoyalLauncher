@@ -1,4 +1,4 @@
-name: GDLauncher Next CI
+name: RoyalLaunch Next CI
 
 on:
   push:

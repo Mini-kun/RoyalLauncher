@@ -124,8 +124,8 @@ const commonConfig = {
   config: {
     generateUpdatesFilesForAllChannels: true,
     npmRebuild: false,
-    productName: 'GDLauncher',
-    appId: 'org.gorilladevs.GDLauncher',
+    productName: 'RoyalLaunch',
+    appId: 'org.gorilladevs.RoyalLaunch',
     files: [
       '!node_modules/**/*',
       'build/**/*',
@@ -182,9 +182,9 @@ const commonConfig = {
     },
     protocols: [
       {
-        name: 'gdlauncher',
+        name: 'RoyalLaunch',
         role: 'Viewer',
-        schemes: ['gdlauncher']
+        schemes: ['RoyalLaunch']
       }
     ]
   },

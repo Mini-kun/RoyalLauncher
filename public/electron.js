@@ -60,8 +60,8 @@ if (gotTheLock) {
   app.quit();
 }
 
-if (!app.isDefaultProtocolClient('gdlauncher')) {
-  app.setAsDefaultProtocolClient('gdlauncher');
+if (!app.isDefaultProtocolClient('RoyalLaunch')) {
+  app.setAsDefaultProtocolClient('RoyalLaunch');
 }
 
 // This gets rid of this: https://github.com/electron/electron/issues/13186
@@ -74,10 +74,10 @@ const edit = [
   ...(process.platform === 'darwin'
     ? [
         {
-          label: 'GDLauncher',
+          label: 'RoyalLaunch',
           submenu: [
             {
-              label: 'About GDLauncher',
+              label: 'About RoyalLaunch',
               role: 'about'
             },
             { type: 'separator' },
@@ -88,7 +88,7 @@ const edit = [
             },
             { type: 'separator' },
             {
-              label: 'Hide GDLauncher',
+              label: 'Hide RoyalLaunch',
               accelerator: 'Command+H',
               role: 'hide'
             },
@@ -103,7 +103,7 @@ const edit = [
             },
             { type: 'separator' },
             {
-              label: 'Quit GDLauncher',
+              label: 'Quit RoyalLaunch',
               accelerator: 'Command+Q',
               click: () => {
                 app.quit();
@@ -161,7 +161,7 @@ try {
   // Do nothing
 }
 
-app.setPath('userData', path.join(app.getPath('appData'), 'gdlauncher_next'));
+app.setPath('userData', path.join(app.getPath('appData'), 'RoyalLaunch_next'));
 
 let allowUnstableReleases = false;
 const releaseChannelExists = fss.existsSync(
@@ -313,7 +313,7 @@ function createWindow() {
   tray = new Tray(nimage);
   const trayMenuTemplate = [
     {
-      label: 'GDLauncher',
+      label: 'RoyalLaunch',
       enabled: false
     },
     {
@@ -324,7 +324,7 @@ function createWindow() {
 
   const trayMenu = Menu.buildFromTemplate(trayMenuTemplate);
   tray.setContextMenu(trayMenu);
-  tray.setToolTip('GDLauncher');
+  tray.setToolTip('RoyalLaunch');
   tray.on('double-click', () => mainWindow.show());
 
   mainWindow.loadURL(
@@ -332,7 +332,7 @@ function createWindow() {
       ? 'http://localhost:3000'
       : `file://${path.join(__dirname, '../build/index.html')}`,
     {
-      userAgent: 'GDLauncher'
+      userAgent: 'RoyalLaunch'
     }
   );
   if (isDev) {
@@ -647,7 +647,7 @@ if (process.env.REACT_APP_RELEASE_TYPE === 'setup') {
   autoUpdater.allowPrerelease = allowUnstableReleases;
   autoUpdater.setFeedURL({
     owner: 'gorilla-devs',
-    repo: 'GDLauncher',
+    repo: 'RoyalLaunch',
     provider: 'github'
   });
 

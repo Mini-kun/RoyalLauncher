@@ -38,12 +38,12 @@ const SocialButtons = () => {
         }
       `}
     >
-      <a href="https://discord.gdlauncher.com">
+      <a href="https://discord.royaltechnica.net.com">
         <div>
           <FontAwesomeIcon icon={faDiscord} size="lg" />
         </div>
       </a>
-      <a href="https://github.com/gorilla-devs/GDLauncher">
+      <a href="https://github.com/Mini-Kun/RoyalLaunch">
         <div>
           <FontAwesomeIcon icon={faGithub} size="lg" />
         </div>

@@ -1,12 +1,11 @@
-# GDLauncher
+# RoyalLaunch
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
-[![GitHub issues](https://img.shields.io/github/issues-raw/gorilla-devs/GDLauncher.svg)](https://github.com/gorilla-devs/GDLauncher/issues) 
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/gorilla-devs/GDLauncher.svg)](https://github.com/gorilla-devs/GDLauncher/pulls) 
-![Discord](https://img.shields.io/discord/398091532881756161.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gorilla-devs/GDLauncher.svg) 
-![](https://img.shields.io/github/release/gorilla-devs/GDLauncher.svg?style=flat)
-![Github All Releases](https://img.shields.io/github/downloads/gorilla-devs/GDLauncher/total.svg)
+[![GitHub issues](https://img.shields.io/github/issues-raw/Mini-kun/RoyalLaunch.svg)](https://github.com/Mini-Kun/RoyalLaunch/issues) 
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Mini-kun/RoyalLaunch.svg)](https://github.com/Mini-kun/RoyalLaunch/pulls) 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Mini-kun/RoyalLaunch.svg) 
+![](https://img.shields.io/github/release/Mini-kun/RoyalLaunch.svg?style=flat)
+![Github All Releases](https://img.shields.io/github/downloads/Mini-kun/RoyalLaunch/total.svg)
 
 ## 🦺 Support this project
 
@@ -18,10 +17,10 @@
  <summary><strong>Table of Contents</strong> (click to expand)
 </summary>
 
-- [GDLauncher](#gdlauncher)
+- [RoyalLaunch](#RoyalLaunch)
   - [🦺 Support this project](#-support-this-project)
   - [🎉 Join our community](#-join-our-community)
-  - [🎮 What is GDLauncher](#-what-is-gdlauncher)
+  - [🎮 What is RoyalLaunch](#-what-is-RoyalLaunch)
   - [⚡️ Comparison with Twitch Launcher](#️-comparison-with-twitch-launcher)
   - [🚀 Getting Started](#-getting-started)
   - [🎮 Download](#-download)
@@ -44,15 +43,15 @@
     <img width="800" height="auto" src="https://gdevs.io/showcase.jpg" alt="GDLauncher" />
 </p>
 
-## 🎮 What is GDLauncher
+## 🎮 What is RoyalLaunch
 
-GDLauncher is a custom open-source Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and install `forge/fabric`, bringing the playing and modding experience to the next level!
+RoyalLaunch is a custom open-source Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and install `forge/fabric`, bringing the playing and modding experience to the next level! (Fork from GDLauncher)
 
 ## ⚡️ Comparison with Twitch Launcher
 
-This is an example of the time that GDLauncher takes to install a modpack in comparison to Twitch. Both tests are running at the same time over a 1Gbps network to ensure that the network doesn't impact the comparison.
+This is an example of the time that RoyalLaunch takes to install a modpack in comparison to Twitch. Both tests are running at the same time over a 1Gbps network to ensure that the network doesn't impact the comparison.
 
-- GDLauncher: `52s`
+- RoyalLaunch: `52s`
 - Twitch Launcher: `145s`
 
 <p align="center">
